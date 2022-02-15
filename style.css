@@ -1,0 +1,101 @@
+body {
+    font-weight: bold;
+    background-color: rgba(0, 54, 102, 0.89);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: rgba(80, 173, 255, 0.658);
+    text-align: center;
+    border: 3.5px solid black;
+    border-radius: .5rem;
+    padding: 25px;
+    width: auto;
+    height: auto;
+    margin-left: 18%;
+    margin-right: 18%;
+    box-shadow: 10px 5px 5px black;
+}
+
+label {
+    letter-spacing: 1px;
+}
+
+.title {
+    background-color: rgba(80, 173, 255, 0.658);
+    text-align: center;
+    border: 3.5px solid black;
+    border-radius: .5rem;
+    width: auto;
+    height: auto;
+    margin-top: 6%;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 0px 20px;
+    box-shadow: 10px 5px 5px black;
+    font-size: 20px;
+}
+
+.form-list {
+    padding: 2.5% 30px 30% 30px;
+}
+
+#pw-length {
+    width: 52px;
+    border: black solid .125rem;
+    border-radius: .25rem;
+    background-color: rgb(236, 255, 255);
+    font-weight: bold;
+}
+
+#inc-nums, #inc-syms, #inc-upper, #inc-lower {
+    padding: 2px;
+    margin: 4px;
+    width: 16px;
+    height: 16px;
+    outline: black solid .12rem;
+    background-color: rgb(236, 255, 255);
+}
+
+.output-pw {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#copy-btn {
+    margin-left: 5px;
+    
+}
+
+#output-pass {
+    outline: black solid .12rem;
+    background-color: rgb(236, 255, 255);
+
+}
+
+#pw-btn {
+    background-color: rgba(57, 98, 211, 0.705);
+    color: rgb(24, 24, 24);
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 250px;
+    height: 30px;
+    border: rgb(14, 14, 14) solid .125rem;
+    border-radius: .2rem;
+    box-shadow: 4px 4px 1.5px black;
+}
+
+#pw-btn:hover {
+    box-shadow: 3px 3px 1px black;
+    margin-left: 1px;
+}
+
+#pw-btn:active {
+    box-shadow: 0 1px rgb(49, 49, 49);
+    transform: translateY(1px);
+}

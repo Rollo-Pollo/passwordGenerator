@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <div class="title">
+        <h1>Password Generator</h1>
+    </div>
+    <div class="form-list">
+        <form>
+            <div class="length">
+                <label for="pw-length">Password Length:</label>
+                <input name="pw-length" id="pw-length" placeholder="Limit is 64" min=4 max=64 value=12>
+            </div>
+
+            <div class="nums">
+                <label for="inc-nums">Include Numbers?:</label>
+                <input type="checkbox" name="inc-nums" id="inc-nums">
+            </div>
+
+            <div class="sym">
+                <label for="inc-syms">Include Symbols?:</label>
+                <input type="checkbox" name="inc-syms" id="inc-syms">
+            </div>
+
+            <div class="upper">
+                <label for="inc-nums">Include Uppercase?:</label>
+                <input type="checkbox" name="inc-upper" id="inc-upper">
+            </div>
+
+            <div class="lower">
+                <label for="inc-nums">Include Lowercase?:</label>
+                <input type="checkbox" name="inc-lower" id="inc-lower">
+            </div>
+
+            <div class="output-pw">
+                <label for="output-pw">Generated Password:</label>
+                <input for="output" type="text" name="output" id="output-pass" >
+                <button type="button" id="copy-btn"> <img src="https://www.clipartmax.com/png/small/123-1237164_copy-to-clipboard-copy-to-clipboard-icon.png" height="20" width="20" alt="Copy To Clipboard - Copy To Clipboard Icon @clipartmax.com"></button> 
+            </div>
+
+            <button type="button" id="pw-btn">Generate Password</button>
+        </form>
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
